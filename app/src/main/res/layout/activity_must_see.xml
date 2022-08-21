@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#76CDF4"
+    android:layout_height="match_parent"
+    tools:context=".MustSee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUST SEE"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view"
+            android:text="View"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/img"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/tom"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:hint="Art Name"
+            android:layout_marginTop="10dp"
+            android:id="@+id/aname"
+            android:textAlignment="center"
+            android:background="@drawable/cardborder"
+            android:layout_gravity="center_horizontal" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:hint="Artist Name"
+            android:layout_marginTop="10dp"
+            android:id="@+id/artist"
+            android:textAlignment="center"
+            android:background="@drawable/cardborder"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:hint="Acc no"
+            android:id="@+id/accno"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:background="@drawable/cardborder"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:hint="Description"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:id="@+id/descri"
+            android:background="@drawable/cardborder"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:hint="Location"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:id="@+id/pincode"
+            android:background="@drawable/cardborder"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <!--    <EditText-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="50dp"-->
+        <!--        android:layout_marginRight="30dp"-->
+        <!--        android:layout_marginLeft="30dp"-->
+        <!--        android:hint="Budget"-->
+        <!--        android:id="@+id/budget"-->
+        <!--        android:layout_marginTop="30dp"-->
+        <!--        android:textAlignment="center"-->
+        <!--        android:background="@drawable/cardborder"-->
+        <!--        android:layout_gravity="center_horizontal"-->
+        <!--        />-->
+
+
+        <TextView
+            android:id="@+id/Dept"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Click to get latlong"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="Save"
+            android:id="@+id/submit"
+            android:textColor="#ffffff"
+            android:layout_marginTop="30dp"
+            android:background="#D82121"/>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
