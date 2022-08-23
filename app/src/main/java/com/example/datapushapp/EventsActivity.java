@@ -65,7 +65,7 @@ public class EventsActivity extends AppCompatActivity implements DatePickerDialo
         pickdate=findViewById(R.id.pickdate);
         museumname= getIntent().getStringExtra("name");
         System.out.println(museumname);
-        System.out.println("hiiiiiiiiiiiiiiiiiii");
+
 
         pincode=findViewById(R.id.pincode);
         descri=findViewById(R.id.descri);
